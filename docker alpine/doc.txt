@@ -1,0 +1,8 @@
+7554c1b70d69   alpine     "/bin/sh"                5 minutes ago   Created                                 PostgresData
+3d9fc31638a0   postgres   "docker-entrypoint.s…"   6 minutes ago   Up 6 minutes   0.0.0.0:5432->5432/tcp   yourContainerName
+
+
+created a Docker container using the Alpine Linux image
+and then,
+created a seperate Docker container to host the PostgreSQL database. 
+This container includes the necessary configurations, such as the host, user password
